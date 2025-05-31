@@ -1,15 +1,15 @@
 import React from "react"
 import { createFileRoute } from '@tanstack/react-router'
-import TemplateComponent from '../../template-component'
+import HimomComponent from '../../himom-component'
 
-export const Route = createFileRoute('/template/')({
+export const Route = createFileRoute('/himom/')({
   component: RouteComponent,
 })
 
 function RouteComponent() {
   return (
     <div>
-      <TemplateComponent name="World!" />
+      <HimomComponent name="World!" />
     </div>
   )
 }

@@ -1,11 +1,11 @@
-namespace Template.Services;
+namespace Himom.Services;
 
-public interface ITemplateService
+public interface IHimomService
 {
     string GetObfuscatedName(ReadOnlySpan<char> nonObfuscatedName);
 }
 
-public class TemplateService : ITemplateService
+public class HimomService : IHimomService
 {
     public string GetObfuscatedName(ReadOnlySpan<char> nonObfuscatedName)
     {

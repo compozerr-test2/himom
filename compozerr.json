@@ -1,6 +1,6 @@
 {
     "type": "module",
-    "name": "template",
+    "name": "himom",
     "dependencies": { },
     "start": "echo 'Hi Mom!'",
     "startupTimeoutMs": 1000,
